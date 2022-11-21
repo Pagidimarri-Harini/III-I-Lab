@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		let num = prompt("Enter the number")
+		document.write("Entered Number is :" + num )
+document.write("<br>");
+		let count = 0;
+		for(let i = 0; i <= num; i++){
+			if(i % 2 != 0){
+				document.write(i);
+				document.write("<br>");
+				count = count + 1;
+		}
+	}
+	   document.write("The count of odd numbers from 1 to " + num + " is: " + count);
+	</script>
+</html>
