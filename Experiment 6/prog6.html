@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+		<label for="assignment 1"> Assignment 1: 
+		<input type="text" id="assignment 1"/>
+
+		<p id = "demo"> </p>
+
+		<script>
+			function Validate() {
+				var x = document.getElementById("assignment 1").value; 
+				if(x == ""){
+					alert("Please enter the assignment 1 field");
+				}
+				else{
+					document.getElementById("demo").innerHTML = x;
+				}
+			}
+		</script>		
+
+		<button onclick = "Validate()"> Submit </button>
+</html>
