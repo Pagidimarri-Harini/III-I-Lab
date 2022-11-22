@@ -1,0 +1,17 @@
+body {
+  background-color: beige;
+}
+h2 {
+  color: #ff704d;
+  text-indent: 124px;
+  font: 10px;
+}
+p {
+  color: black;
+  padding-left: 124px;
+  text-align: left;
+}								
+ul{
+  padding-left: 160px;
+  text-align: left;
+}
